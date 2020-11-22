@@ -15,3 +15,4 @@ sudo npm install -g browser-sync
 ```
 browser-sync start --server --directory --files "*"
 ```
+4) Be happy
