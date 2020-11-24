@@ -11,11 +11,12 @@ npm -- version
 ```
 sudo npm install -g browser-sync
 ```
-3) Run browser sync (directory shows the entire directory - * means all files and /* all files inside directories)
+3) Install the bootstrap, jquery and jpopper dependencies
+```
+npm install jquery popper.js bootstrap --save
+```
+4) Run browser sync (directory shows the entire directory - * means all files and /* all files inside directories)
 ```
 browser-sync start --server --directory --files "**/*"
 ```
-4) Install the bootstrap, jquery and jpopper dependencies
-```
-npm install jquery jpopper.js bootstrap --save
-```
+
