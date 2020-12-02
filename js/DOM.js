@@ -44,3 +44,5 @@ document.addEventListener("DOMContentLoaded",
     })
 
 // And place all your functions inside
+// The event object handles all the information of all the inputs (mouse and keys)
+// It is used by evey event handler
